@@ -1,0 +1,725 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    font-family: myfontface;
+    src : url(font/jj.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+p1{
+    font-size: 55px;
+    color: black;
+    font-family:myfontface;
+    float:right;
+    margin-right: 05%;
+    margin-top: 05%;
+    
+   
+    
+}
+#sim{
+   position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+     position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+      
+}
+
+li {
+  float: left;
+}
+li {
+    font-size: 35px;
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:white;
+}
+.active{
+    background-color:white;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section{
+	width:100%;
+    height: 80%;
+}
+aside{
+	width:20%;
+	
+	background:grey;
+	float:left;
+  
+}
+figure1{
+    margin-top: -800px;
+    
+}
+article{
+	width:78%;
+   margin-left: 20px;
+	float:right;
+}
+h2{
+    font-size: 55px;
+    color: white;
+    background: black;
+    text-align: center;
+    height: 90px;
+    padding-top: 0;
+    margin-top: 80px;
+    font-family: inherit;
+   
+
+
+}
+
+h9{
+    font-size: 35px;
+    color: white;
+    background: black;
+    text-align: center;
+    height: 60px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: inherit;
+    width: 30%;
+ 
+
+
+}
+h5{
+   font-size: 65px;
+    color: white;
+    background: black;
+    text-align: center;
+    height: 60px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: inherit;
+  
+}
+ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ height: 100%;
+    
+  position: stickey;
+ 
+width: 20%;
+}
+
+li1  a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+li1 a:hover{
+    background-color: grey;
+}
+ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li2 {
+  float: left;
+}
+#aa{
+    padding-top: -100px;
+}
+li2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+@font-face{
+    font-family:my firstfont;
+    src:url(hjf.ttf);
+}
+p2{
+    font-size: 30px;
+    font-family:my firstfont ;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+   
+    
+}
+img{
+    margin-top: 0;
+    padding-top: 0;
+}
+@font-face{
+    font-family:mysecondfont;
+    src:url(rrr.otf);
+}
+h3{
+    margin-top: 20px;
+    background: black;
+    color: white;
+    font-size: 85px;
+   font-family: mysecondfont;
+    text-align: center;
+   
+   
+   
+}
+#aa{
+    margin-top: -180px;
+    
+}
+h4{
+    font-size: 45px;
+   
+}
+figcaption{
+    display: block;
+    
+    font-size: 20px;
+}
+h6{
+    background: black;
+    color: white;
+    font-family: inherit;
+    font-size: 100px;
+    margin-top: 0px;
+    text-align: center;
+}
+.glow{
+     font-family:inherit;
+     font-size: 85px;
+     color: white;
+    background-color: black;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+    to{
+        text-shadow: 0 0 5px #ffffff,0 0 10px #ffffff,0 0 15px #ffffff,0 0 20px #ffffff,0 0 25px #ffffff;
+    }
+}
+
+h7{
+    font-size: 65px;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    
+}
+.head{
+    margin-top: 70px;
+}
+h8{
+    font-size: 50px;
+    background: red;
+     padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 335px;
+    padding-right: 310px;
+    height: 20%;
+    
+    
+    
+}
+<!-------------------------------topphotohover------------------------------------------------>
+#top01 {
+  position: relative;
+  width: 30%;
+}
+#top02 {
+  position: relative;
+  width: 30%;
+}
+#top03 {
+  position: relative;
+  width: 30%;
+}
+#top04 {
+  position: relative;
+  width: 30%;
+}
+#top05 {
+  position: relative;
+  width: 30%;
+}
+#top06 {
+  position: relative;
+  width: 30%;
+}
+#top07 {
+  position: relative;
+  width: 30%;
+}
+#top08 {
+  position: relative;
+  width: 30%;
+}
+#top01:hover .image {
+  opacity: 0.3;
+}
+
+#top01:hover .middle {
+  opacity: 1;
+}
+#top02:hover .image {
+  opacity: 0.3;
+}
+
+#top02:hover .middle {
+  opacity: 1;
+}
+#top03:hover .image {
+  opacity: 0.3;
+}
+
+#top03:hover .middle {
+  opacity: 1;
+}
+#top04:hover .image {
+  opacity: 0.3;
+}
+
+#top04:hover .middle {
+  opacity: 1;
+}
+#top05:hover .image {
+  opacity: 0.3;
+}
+
+#top05:hover .middle {
+  opacity: 1;
+}
+#top06:hover .image {
+  opacity: 0.3;
+}
+
+#top06:hover .middle {
+  opacity: 1;
+}
+#top07:hover .image {
+  opacity: 0.3;
+}
+
+#top07:hover .middle {
+  opacity: 1;
+}
+#top08:hover .image {
+  opacity: 0.3;
+}
+
+#top08:hover .middle {
+  opacity: 1;
+}
+<!--------------------------womenphotohover----------------->
+#women01 {
+  position: relative;
+  width: 30%;
+}
+#women02 {
+  position: relative;
+  width: 30%;
+}
+#women03 {
+  position: relative;
+  width: 30%;
+}
+#women04 {
+  position: relative;
+  width: 30%;
+}
+
+#women05 {
+  position: relative;
+  width: 30%;
+}
+#women06 {
+  position: relative;
+  width: 30%;
+}
+#women07 {
+  position: relative;
+  width: 30%;
+}
+#women08 {
+  position: relative;
+  width: 30%;
+}
+#women09 {
+  position: relative;
+  width: 30%;
+}
+#women10 {
+  position: relative;
+  width: 30%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#women01:hover .image {
+  opacity: 0.3;
+}
+
+#women01:hover .middle {
+  opacity: 1;
+}
+#women02:hover .image {
+  opacity: 0.3;
+}
+
+#women02:hover .middle {
+  opacity: 1;
+}
+#women03:hover .image {
+  opacity: 0.3;
+}
+
+#women03:hover .middle {
+  opacity: 1;
+}
+
+#women04:hover .image {
+  opacity: 0.3;
+}
+
+#women04:hover .middle {
+  opacity: 1;
+}
+#women05:hover .image {
+  opacity: 0.3;
+}
+
+#women05:hover .middle {
+  opacity: 1;
+}
+#women06:hover .image {
+  opacity: 0.3;
+}
+
+#women06:hover .middle {
+  opacity: 1;
+}
+#women07:hover .image {
+  opacity: 0.3;
+}
+
+#women07:hover .middle {
+  opacity: 1;
+}
+#women08:hover .image {
+  opacity: 0.3;
+}
+
+#women08:hover .middle {
+  opacity: 1;
+}
+#women09:hover .image {
+  opacity: 0.3;
+}
+
+#women09:hover .middle {
+  opacity: 1;
+}
+#women10:hover .image {
+  opacity: 0.3;
+}
+
+#women10:hover .middle {
+  opacity: 1;
+}
+.head{
+    padding: 0;
+}
+
+
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 40px;
+    padding-top: -50px;
+}
+
+#women02{
+    padding-top: 10px;
+}
+#women03{
+    margin-left: 350px;
+    margin-top: -352px;
+}
+#women04{
+    margin-top: -370px;
+    margin-left: 700px;
+}
+#women05{
+    margin-left: px;
+    margin-top:36px;
+   
+}
+#women06{
+    margin-top: -377px;
+    margin-left: 350px;
+    
+    
+}
+#women07{
+    padding-top: 60px;
+}
+#women08{
+    margin-left: 350px;
+    margin-top: -374px;
+}
+#women09{
+    margin-left: 700px;
+    margin-top: -758px;
+}
+#women10{
+    padding-top: 40px;
+    margin-left: 705px;
+}
+#top01{
+    padding-top: 30px;
+}
+#top02{
+    margin-left: 0px;
+ padding-top: 60px;
+    
+}
+#top03{
+    margin-left: 350px;
+    margin-top: -352px;
+}
+#top04{
+    margin-top: -350px;
+    margin-left: 700px;
+}
+
+#top06{
+    margin-top: -352px;
+    margin-left: 350px;
+}
+#top07{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#top08{
+    margin-top: -852px;
+    margin-left: 700px;
+}
+<!------------------------glow--------------------------->
+.glow{
+     font-family:inherit;
+     font-size: 85px;
+     color: white;
+    background-color: black;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+    to{
+        text-shadow: 0 0 5px #ffffff,0 0 10px #ffffff,0 0 15px #ffffff,0 0 20px #ffffff,0 0 25px #ffffff;
+    }
+}
+
+/*----------------------------------------------search bar-----------------------------------*/
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid white;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid white;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+<!----------------------------boysphotos--------------------------->
+#boy01{
+    padding-top: 80px;
+}
+#boy02{
+    margin-left: 350px;
+    margin-top: -372px;
+}
+#boy03{
+    margin-left: 700px;
+    margin-top: -372px;
+}
+#boy04{
+    padding-top: 50px;
+}
+#boy05{
+    margin-left: 350px;
+    margin-top: -350px;
+}
+#boy06{
+    margin-left: 700px;
+    margin-top: -352px;
+}
+
+#boy08{
+    margin-left: 350px;
+    margin-top: -375px;
+}
+#boy09{
+    margin-left: 700px;
+    margin-top: -351px;
+}
+#boy10{
+    padding-top: 60px;
+}
+
+#shoe02{
+    margin-left: 350px;
+    margin-top: -375px;
+}
+#shoe03{
+    margin-left: 700px;
+    margin-top: -375px;
+}
+#shoe04{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+#shoe05{
+    margin-left: 350px;
+    margin-top: -430px;
+}
+#shoe06{
+    margin-left: 700px;
+    margin-top: -376px;
+}
+#text.hover{
+    background-color: red;]
+}
+#tt:hover{
+    background: red;
+}
